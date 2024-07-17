@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,57 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)](/files/cv.pdf)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S in Computer Engineering, Koc University, 2024-26
+  * Now I am working on Super-Resolution using Latent Diffusion Models
+  * Advisor: Assoc. Prof. Dr. Aykut Erdem and Prof. Dr. Erkut Erdem
+* B.S. in Computer Engineering, Istanbul Technical University, 2018-23
+  * Advisor: Prof. Dr. Gözde Ünal 
+  * CGPA: 3.44/4.00
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jan 2023 - now: Jr. Computer Vision Engineer \| REM People
+  * Projects: 
+    * Object Detection with YOLOv8
+    * Image Segmentation with Segment Anything (SAM)
+    * Vector Database (MilvusDB) 
+    * LLIE (Low Light Image Enhancement)
+    * Deployment of models on edge devices (IPhone and Android)
   
+* Jun 2022 - Jun 2023: Deep Learning Researcher \| Istanbul Technical University
+  * Took Deep Learning and completed several courses from Stanford University CS series
+  * Projects: 
+    * Char RNN
+    * LSTM
+    * Diffusion Models
+  
+Interests
+======
+
+Latent Diffusion Models, Super-Resolution, Inverse Problems, Neural Radiance Fields (NeRF), Natural Language Generation, Audio Synthesis
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* PyTorch
+* Tensorflow
+* C
+* C++
+* Javascript / Typescript
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+  {% endfor %}</ul> -->
+
+<!-- Publications
 ======
-* Currently signed in to 43 different slack teams
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul> -->
+  
